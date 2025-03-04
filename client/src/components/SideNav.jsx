@@ -4,7 +4,7 @@ import { IoIosAddCircleOutline, IoMdPower } from "react-icons/io";
 import { GoHome } from "react-icons/go";
 import {Tooltip} from "@heroui/tooltip";
 import logo from "../assets/logo-1.png"
-import ThemeToggle from "./Themetoggle";
+import ThemeToggle from "./ThemeToggle";
 import {useAuth} from "../context/AuthContext"
 import { useUIState } from "../context/UIStateContext";
 
