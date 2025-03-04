@@ -11,3 +11,5 @@ client/.env
 # General
 *.log
 *.DS_Store
+.env
+node_modules/
