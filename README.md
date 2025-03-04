@@ -89,11 +89,12 @@ cd dufil
       ```
       npm install
       ```
-   3. **Update API Base URL (Optional):**
+   3. **Set Up Environment Variables:**
 
-      - Open `src/api/axios.js` and ensure `BASE_URL` matches your backend:
+      - Create a `.env` file in the `client` folder.
+      - Add the following:
         ```
-        const BASE_URL = "http://localhost:3000"; // Default matches backend port
+         VITE_SERVER_BASE_URL=http://localhost:3000
         ```
       - Adjust if your backend runs on a different port or host.
 
