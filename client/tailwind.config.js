@@ -16,9 +16,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-img': "url('./assets/Photo by Joyston Judah on Pexels.jfif')",
-        'signup-img': "url('./assets/Debbie Balboa _ Photo.gif')",
-        'login-img': "url('./assets/Artista cria ilustrações e as transforma em gifs calmos e hipnotizantes.gif')",
+        'hero-img': "url('/assets/Photo by Joyston Judah on Pexels.jfif')",
+        'signup-img': "url('/assets/Debbie Balboa _ Photo.gif')",
+        'login-img': "url('/assets/Artista cria ilustrações e as transforma em gifs calmos e hipnotizantes.gif')",
       }
     },
   },
