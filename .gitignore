@@ -1,0 +1,13 @@
+# Backend (server folder)
+server/node_modules/
+server/.env
+server/*.log
+
+# Frontend (client folder)
+client/node_modules/
+client/dist/
+client/.env
+
+# General
+*.log
+*.DS_Store
