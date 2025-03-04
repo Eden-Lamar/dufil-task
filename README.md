@@ -73,7 +73,7 @@ cd dufil
       ```
       npm start
       ```
-      - The server should start on http://localhost:3000. You’ll see:
+      - The server should start on `http://localhost:3000`. You’ll see:
       ```
       Server up on port 3000...
       Connected to <database-name> Database
