@@ -12,9 +12,10 @@ import { useAuth } from "../context/AuthContext";
 
 
 const loginSchema  = yup.object().shape({
-	email: yup.string().email("Invalid email").required("Email is required"),
+	email: yup.string().trim().email("Invalid email").required("Email is required"),
 	password: yup
 		.string()
+		.trim()
 		.required("Password is required")
 		.min(8, "Password must be at least 8 characters long, One Uppercase, One Lowercase, and One Number")
 });
