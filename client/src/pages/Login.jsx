@@ -55,25 +55,13 @@ const Login = () => {
 			<div className="absolute inset-0 bg-black opacity-50"></div>
 
 			<div className={`absolute mt-3 w-full flex justify-center animate__animated ${showAlert ? "block animate__fadeInDown" : "hidden"}`}>
-				{/* <div role="alert" className="alert alert-error w-1/2">
-				<svg
-					className="h-6 w-6 shrink-0 stroke-current"
-					fill="none"
-					viewBox="0 0 24 24">
-					<path
-					strokeLinecap="round"
-					strokeLinejoin="round"
-					strokeWidth="2"
-					d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
-				</svg>
-				<span>{error }</span>
-				</div> */}
+				
 					<div className="w-full">
 						<Alert
 							color="danger"
 							title={error}
 							variant="solid"
-							className="w-1/2 mx-auto"
+							className=" w-11/12 md:w-1/2 mx-auto"
 						/>
 
 					</div>
