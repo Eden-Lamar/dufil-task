@@ -1,6 +1,6 @@
 # Dufil Task
 
-Go to [difil-task](https://dufil-task-client.vercel.app) to see the live project
+Go to [dufil-task](https://dufil-task-client.vercel.app) to see the live project
 
 ---
 
