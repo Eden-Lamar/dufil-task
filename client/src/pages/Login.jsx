@@ -69,7 +69,7 @@ const Login = () => {
 
 
 				<div className="relative z-10 flex items-center justify-center h-full">
-					<form onSubmit={handleSubmit(onSubmit)} className="backdrop-blur-sm bg-black/30 min-h-[50%] w-11/12 md:w-1/3 p-5 rounded-lg">
+					<form onSubmit={handleSubmit(onSubmit)} className="backdrop-blur-sm bg-black/25 min-h-[50%] w-11/12 md:w-1/3 p-5 rounded-lg">
 						<h1 className="text-white mb-4 text-xl">Login</h1>
 
 						<div className="relative mb-4">

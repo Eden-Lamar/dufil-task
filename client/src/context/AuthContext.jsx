@@ -112,7 +112,7 @@ export const AuthProvider = ({ children }) => {
       }
       navigate("/");
     } catch (error) {
-        // console.error("Login error:", error?.response?.data?.error);
+        console.error("Login error:", error?.response?.data.error);
       setError(error?.response?.data?.error || "An error occurred. Please try again later.");
     } finally {
       setIsSubmitting(false);
@@ -134,6 +134,7 @@ export const AuthProvider = ({ children }) => {
 
 		await login(loginData);
     } catch (error) {
+      console.log(error?.response?.data?.error)
 		setError(error?.response?.data?.error || "An error occurred. Please try again later.");
     } finally {
 		setIsSubmitting(false);

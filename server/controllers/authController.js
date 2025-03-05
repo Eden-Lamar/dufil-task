@@ -27,7 +27,7 @@ const registerUser = async (req, res) => {
 		if (userExists) {
 			return res.status(400).json({
 				status: "fail",
-				message: 'User already exists'
+				error: 'User already exists'
 			});
 		}
 
