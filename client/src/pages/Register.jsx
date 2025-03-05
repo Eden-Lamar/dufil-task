@@ -38,14 +38,20 @@ const Register = () => {
 	// Show alert when there's an error
 	useEffect(() => {
 		if (error) {
-			setShowAlert(true);
-			// Hide the alert after 5 seconds
-			const timer = setTimeout(() => {
-				setShowAlert(false);
-			}, 5000);
+			let timer;
+			if (error) {
+				setShowAlert(true);
+				// Hide the alert after 8 seconds
+				timer = setTimeout(() => {
+					setShowAlert(false);
+				}, 8000);
 
-			// Cleanup the timer
-			return () => clearTimeout(timer);
+				// Cleanup the timer
+				return () => clearTimeout(timer);
+			}else{
+				setShowAlert(false);
+				return () => clearTimeout(timer);
+			}
 		}
 	}, [error]);
 

@@ -38,14 +38,18 @@ const Login = () => {
 	
 		// Show alert when there's an error
 		useEffect(() => {
+			let timer;
 			if (error) {
 				setShowAlert(true);
-				// Hide the alert after 5 seconds
-				const timer = setTimeout(() => {
+				// Hide the alert after 8 seconds
+				timer = setTimeout(() => {
 					setShowAlert(false);
-				}, 15000);
+				}, 8000);
 
 				// Cleanup the timer
+				return () => clearTimeout(timer);
+			}else{
+				setShowAlert(false);
 				return () => clearTimeout(timer);
 			}
 		}, [error]);
