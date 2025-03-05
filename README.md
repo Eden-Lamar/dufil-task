@@ -1,5 +1,7 @@
 # Dufil Task
 
+go to [difil-task](https://dufil-task-client.vercel.app) to see the live project
+
 This is a full-stack inventory management application built with a Node.js/Express backend and a React frontend. It allows users to register, log in, and manage inventory items securely. The application includes additional features like dark mode and an offline notification to enhance user experience.
 
 1. **Backend:** Located in the `server` folder, powered by Express, MongoDB, and JWT for authentication.
